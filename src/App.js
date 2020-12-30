@@ -59,12 +59,14 @@ function App() {
         onClose={() => setOpen(false)}
       >
         <div style={modalStyle} className={classes.paper}>
-          <center>
-            <img 
-              className="app_headerImage"
-              src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
-              alt="Instagram logo"
-            />
+          <form>
+            <center>
+              <img 
+                className="app__headerImage"
+                src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+                alt="Instagram logo"
+              />
+            </center>
             <Input 
               placeholder="username"
               type="text"
@@ -84,7 +86,7 @@ function App() {
               onChange={(e) => setPassword(e.target.value)}
             />
             <Button onClick={SignUp}>Sign Up</Button>
-          </center>
+          </form>
         </div>
       </Modal>
 
