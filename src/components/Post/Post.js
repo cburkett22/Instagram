@@ -19,6 +19,7 @@ function Post({ username, caption, imageUrl }) {
             <img
                 className="post__image"
                 src={imageUrl}
+                alt="User avatar"
             />
 
             <p className="post__text"><strong>{username}</strong> {caption}</p>
