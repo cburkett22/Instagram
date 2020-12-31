@@ -11,3 +11,8 @@
 .imageUpload__progress {
     width: 100%;
 }
+
+.imageUpload__input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

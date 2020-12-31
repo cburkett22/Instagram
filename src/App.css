@@ -27,3 +27,7 @@
 .app__posts {
   padding: 20px;
 }
+
+.app__loginBtn {
+  margin-right: 10px !important;
+}
