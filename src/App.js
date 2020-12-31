@@ -182,7 +182,7 @@ function App() {
       {user?.displayName ? (
         <ImageUpload username={user.displayName} />
       ): (
-        <h3>Sorry... You need to login to upload!</h3>
+        <h3 style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>Sorry... You need to login to upload a photo!</h3>
       )}
 
       <div className="app__posts">
@@ -190,6 +190,7 @@ function App() {
           posts.map(({ id, post }) => (
             <Post
               key={id}
+              postId={id}
               username={ post.username }
               caption={ post.caption }
               imageUrl={ post.imageUrl }
