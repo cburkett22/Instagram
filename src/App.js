@@ -45,7 +45,6 @@ function App() {
     const unsubscribe = auth.onAuthStateChanged((authUser) => {
       if (authUser) {
         // User has logged in...
-        console.log(authUser);
         setUser(authUser);
 
       } else {
@@ -81,6 +80,11 @@ function App() {
         })
       })
       .catch((error) => alert(error.message));
+    
+    setUsername('');
+    setEmail('');
+    setPassword('');
+    setOpen(false);
   };
 
   const login = (event) => {
