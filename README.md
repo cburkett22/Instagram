@@ -19,7 +19,7 @@ As a Full-Stack Web Developer, I have created an application that is a replica o
 In order to make a post or comment on another users post, the user will need to either sign up, or login.
 
 ## Questions
-Email: Coreyburkett22@gmail.com
+Email: Coreyburkett22@gmail.com |
 LinkedIn: www.linkedin.com/in/corey-burkett/
 
 ![Avatar image](https://avatars3.githubusercontent.com/u/63064602?v=4/to/img.png)
